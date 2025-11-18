@@ -1,6 +1,6 @@
 # Transport Management System For Gas — Project Hub
 
-## A gas transportation management application developed for PTG Logistic to address tracking delays and inefficiencies in delivery operations. Key features include driver, vehicle, and delivery location management, task assignment to drivers, real-time order and vehicle tracking, driver compensation calculation, customer billing, and transportation performance reporting.
+A gas transportation management application developed for PTG Logistic to address tracking delays and inefficiencies in delivery operations. Key features include driver, vehicle, and delivery location management, task assignment to drivers, real-time order and vehicle tracking, driver compensation calculation, customer billing, and transportation performance reporting.
 
 ## 🏗 System Overview
 
