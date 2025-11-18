@@ -24,18 +24,19 @@ A modern interface for delivery staff.
 - Generate monthly and yearly transportation summary reports.
 
 **Repository:**  
-👉 [github.com/nk-n/lems-frontend](https://github.com/nk-n/TMSG-frontend.git)
+👉 [github.com/nk-n/tmsg-frontend](https://github.com/nk-n/TMSG-frontend.git)
 
 ---
 
-### **2. Frontend Web Application (Next.js + Tailwind CSS)**
+### **2. Frontend Web Application inside Line OA (Next.js + Tailwind CSS)**
 
 A modern interface for driver.
 
 #### **Features**
 
-- **Repository:**  
-  👉 [github.com/nk-n/lems-frontend]()
+- 
+**Repository:**  
+  👉 [github.com/nk-n/tmsg-driver-frontend]()
 
   ***
 
@@ -48,7 +49,7 @@ Implements all business logic, data operations, and integrations.
 -
 
 **Repository:**  
-👉 [github.com/nk-n/lems-backend](https://github.com/nk-n/lems-backend)
+👉 [github.com/nk-n/tmsg-backend](https://github.com/nk-n/TMSG-backend.git)
 
 ---
 
