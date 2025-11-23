@@ -34,11 +34,15 @@ A modern interface for driver.
 
 #### **Features**
 
-- 
-**Repository:**  
-  👉 [github.com/nk-n/tmsg-driver-frontend]()
+- Display statistical information for each driver.
+- Drivers can accept jobs through the application.
+- Drivers can change the transportation status.
+- Drivers can complete a job and specify the amount of gas delivered to the customer.
 
-  ***
+**Repository:**  
+👉 [github.com/nk-n/tmsg-driver-frontend]()
+
+---
 
 ### **3. Backend Services (Java Spring Framework, Spring JDBC)**
 
@@ -46,7 +50,11 @@ Implements all business logic, data operations, and integrations.
 
 #### **Capabilities**
 
--
+- Handle recording and updating order information in the database.
+- Handle recording and updating information for vehicles, transport staff, and delivery destinations in the database.
+- Handle retrieving statistical report data from the database for display.
+- Handle managing the status of various models in the system.
+- Authentication system for login.
 
 **Repository:**  
 👉 [github.com/nk-n/tmsg-backend](https://github.com/nk-n/TMSG-backend.git)
@@ -55,16 +63,16 @@ Implements all business logic, data operations, and integrations.
 
 ## 🔧 Architecture Diagram (Simplified)
 
-             ┌──────────────────────────────┐
-             │         Web Frontend         │
-             │     (Next.js + Tailwind)     │
-             └───────────────▲──────────────┘
-                             │ HTTPS (REST)
-                             │ WebSockets
-             ┌───────────────┴──────────────────────────┐
-             │               Backend API                │
-             │     (Java Spring Framework, Spring JDBC) │
-             └───────────────▲──────────────────────────┘
+             ┌──────────────────────────────┐          ┌──────────────────────────────────────────┐ 
+             │         Web Frontend         │          │               Web Frontend               │
+             │     (Next.js + Tailwind)     │          │     (Next.js + Tailwind + LINE LIFF)     │
+             └───────────────▲──────────────┘          └───────────────▲──────────────────────────┘
+                             │ HTTPS (REST)                            │ HTTPS (REST)
+                             │                                         │              
+             ┌───────────────┴─────────────────────────────────────────┴──────────────┐
+             │                              Backend API                               │
+             │                   (Java Spring Framework, Spring JDBC)                 │
+             └───────────────▲────────────────────────────────────────────────────────┘
                              │
                        Database Layer
                          (MariaDB)
