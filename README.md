@@ -28,7 +28,7 @@ A modern interface for delivery staff.
 
 ---
 
-### **2. Frontend Web Application inside Line OA (Next.js + Tailwind CSS)**
+### **2. Frontend Web Application inside Line OA (Next.js + Tailwind CSS + LINE LIFF)**
 
 A modern interface for driver.
 
